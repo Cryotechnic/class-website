@@ -1,4 +1,2 @@
-[submodule "main/portfolio-look"]
-	url = localhost:8000
 [submodule "main/style-web"]
 	url = localhost:8001
