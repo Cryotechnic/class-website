@@ -5,5 +5,4 @@ workflows:
   node-tests:
     jobs:
       - node/test
-  deploy_application:
-    - npm/build
+
