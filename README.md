@@ -13,10 +13,10 @@
   </a>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
   <a href="https://twitter.com/intent/follow?screen_name=lekoarts_de">
-   
+  <img src="https://circleci.com/gh/Cryotechnic/class-website.svg?style=shield" alt="Build status Circle-CI" /> 
+  <img src="https://app.buddy.works/cryotechnic/class-website/pipelines/pipeline/288840/badge.svg?token=61c5439170dc3bfc526247d3d88c3758cd76ebb1611591f21e5f43ab02aa29f5" alt="Build status BuddyWorks" />
   </a>
 </p>
- [![Cryotechnic](https://circleci.com/gh/Cryotechnic/class-website.svg?style=shield)]
 
 Playful and Colorful One-Page portfolio featuring Parallax effects and animations. Using the Gatsby Theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara).
 
