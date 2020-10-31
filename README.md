@@ -16,7 +16,7 @@
    
   </a>
 </p>
- [![CryoTechnic](https://circleci.com/gh/CryoTechnic/class-website.svg?style=svg)]
+ [![Cryotechnic](https://circleci.com/gh/Cryotechnic/class-website.svg?style=shield)]
 
 Playful and Colorful One-Page portfolio featuring Parallax effects and animations. Using the Gatsby Theme [`@lekoarts/gatsby-theme-cara`](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara).
 
