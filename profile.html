@@ -3,19 +3,32 @@
     <head>
         <title>My Website</title>
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/burger_styles.css">
         <link rel="stylesheet" href="css/profile_styles.css">
     </head>
     <body>
       <header>
-        <a href="transition.html" class="logo">Ron Friedman</a>
-        <nav class="site-nav">
-          <ul>
-            <li><a href="index.html">Intro (Home)</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="goals.html">Goals</a></li>
-            <li><a href="register.html">Register</a></li>
-          </ul>
-        </nav>
+        <!-- Navigation -->
+        <div class="b-nav">
+          <li><a class="b-link b-link--active" href="#">Home</a></li>
+          <li><a class="b-link" href="https://bit.ly/3qH4psa" target="_blank">Docs - Intro.</a></li>
+          <li><a class="b-link" href="profile.html">Portfolio</a></li>
+          <li><a class="b-link" href="#">Tutorials</a></li>
+          <li><a class="b-link" href="https://bit.ly/3laW0vO" target="_blank">Exercices Folder</a></li>
+          <li><a class="b-link" href="#">Contact</a></li>
+        </div>
+        
+        <!-- Burger-Icon -->
+        <div class="b-container">
+          <div class="b-menu">
+            <div class="b-bun b-bun--top"></div>
+            <div class="b-bun b-bun--mid"></div>
+            <div class="b-bun b-bun--bottom"></div>
+          </div>
+          
+          <!-- Burger-Brand -->
+          <a href="transition.html" class="b-brand">Vanier College AI</a>
+        </div>
       </header>
    <div class="content">
       <div class="card">
@@ -35,7 +48,7 @@
             <p class="text">Stay tuned on my <a href="https://github.com/CryoTechnic" target="_blank" style="color: #bb6e15;">Github</a> for most of my work. There isn't much now, but I'm working on bringing more of my work to life through the knowledge I gain in my classes!</p>
       </div>
    </div>
-</div>
+    <script src="js/burger.js"></script>
     </body>
     <footer>
       © 2021 Ron Friedman. All rights reserved. Made with <a href="https://bit.ly/3dJe12N" target="_blank" style="text-decoration: none;">❤️</a>.
