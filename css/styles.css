@@ -33,7 +33,7 @@ ul {
   margin: 0;
   list-style-type: none;
 }
-ul:hover li:not(:hover) a {
+/* ul:hover li:not(:hover) a {
   opacity: 0.2;
 }
 ul li {
@@ -64,7 +64,7 @@ ul li a {
   font-family: Lato, sans-serif;
   text-decoration: none;
   transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
+} */
 
 .welcome-user {
   font-family: 'Source Code Pro', monospace;
