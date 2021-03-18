@@ -70,7 +70,7 @@ body.open:after {
   animation-fill-mode: both;
   animation-name: slideInLeft;
 }
-.b-link {
+.b-link  {
   background: transparent;
   border-left: rgba(255, 255, 255, 0) solid 2px;
   color: rgba(255, 255, 255, 1);
@@ -82,10 +82,25 @@ body.open:after {
   transition: all 0.4s ease;
   width: auto;
 }
+
+.toggles {
+  background: transparent;
+  border-left: rgba(255, 255, 255, 0) solid 2px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Helvetica-Neue, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 30px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  width: auto;
+}
+
 .b-link:hover, .b-link--active {
   border-left: rgba(255, 255, 255, 1) solid 2px;
   padding-left: 30px;
 }
+
 .b-menu {
   background: #222;
   border: rgba(33, 150, 243, 1) solid 2px;

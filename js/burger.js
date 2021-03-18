@@ -12,3 +12,9 @@
     });
   }, false);
 })();
+
+$(document).ready(function(){
+  $("span").click(function(){
+    $(".toggles").toggle(300);
+  });
+});
