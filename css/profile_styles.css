@@ -46,7 +46,6 @@ body {
 	align-items: center;
 	flex-direction: column;
 	cursor: pointer;
-	transition: all 0.3s ease;
 }
 .icon {
 	margin: 0 auto;
