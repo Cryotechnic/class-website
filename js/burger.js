@@ -14,7 +14,12 @@
 })();
 
 $(document).ready(function(){
-  $("span").click(function(){
+  $("#drop1").click(function(){
     $(".toggles").toggle(300);
+  });
+});
+$(document).ready(function(){
+  $("#drop2").click(function(){
+    $(".toggles1").toggle(300);
   });
 });
