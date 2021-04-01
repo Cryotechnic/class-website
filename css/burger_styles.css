@@ -96,6 +96,10 @@ body.open:after {
   width: auto;
 }
 
+.dropdown-toggle:hover {
+  color:rgba(33, 150, 243, 1)
+}
+
 .toggles .toggles1 {
   background: transparent;
   border-left: rgba(255, 255, 255, 0) solid 2px;
