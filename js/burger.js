@@ -16,10 +16,16 @@
 $(document).ready(function(){
   $("#drop1").click(function(){
     $(".toggles").toggle(300);
+    $(".toggle-icons-intro-1").toggle(300);
+    $(".toggle-icons-intro-2").toggle(300);
   });
 });
 $(document).ready(function(){
   $("#drop2").click(function(){
     $(".toggles1").toggle(300);
+    $(".toggle-icons-docs-1").toggle(300);
+    $(".toggle-icons-docs-2").toggle(300);
+    // Adapt code to webpage
+    // $(this).toggleClass("is-active").next(".option-content").stop().slideToggle(500)
   });
 });
