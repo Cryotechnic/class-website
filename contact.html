@@ -6,6 +6,7 @@
       <link rel="stylesheet" href="css/styles.css">
       <link rel="stylesheet" href="css/burger_styles.css">
       <link rel="stylesheet" href="css/contact-styles.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <!-- Logo implementation in site header -->
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -15,26 +16,28 @@
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
       <meta name="msapplication-TileColor" content="#2d89ef">
       <meta name="theme-color" content="#ffffff">
+      <meta charset="UTF-8">
     </head>
     <body>
       <header>
        <!-- Navigation -->
        <div class="b-nav">
-        <li><a class="b-link b-link--active" href="index.html">Home</a></li>
+        <li><a class="b-link" href="index.html">Home</a></li>
         <li><span id="drop1"><a class="dropdown-toggle" href="javascript: void(0)">Introduction <span class="toggle-icons-intro-1" style="display: inline;">▼</span><span class="toggle-icons-intro-2"style="display: none;">▲</a></span></li>
-        <li class="toggles" style="display: none;"><a class="b-link" href="" target="_blank">Colab </a></li>
-        <li class="toggles" style="display: none;"><a class="b-link" href="" target="_blank">Python</a></li>
-        <li class="toggles" style="display: none;"><a class="b-link" href="" target="_blank">Python (W3)</a></li>
-        <li class="toggles" style="display: none;"><a class="b-link" href="" target="_blank">OOP Principles</a></li>
+        <li class="toggles" style="display: none;"><a class="b-link" href="https://colab.research.google.com/notebooks/intro.ipynb" target="_blank">Colab </a></li>
+        <li class="toggles" style="display: none;"><a class="b-link" href="https://bit.ly/3uEcdxe" target="_blank">Python</a></li>
+        <li class="toggles" style="display: none;"><a class="b-link" href="https://www.w3schools.com/python/default.asp" target="_blank">Python (W3)</a></li>
+        <li class="toggles" style="display: none;"><a class="b-link" href="http://www.trytoprogram.com/python-programming/" target="_blank">OOP Principles</a></li>
         <li><span id="drop2"><a class="dropdown-toggle" href="javascript: void(0)">Documentation <span class="toggle-icons-docs-1" style="display: inline;">▼</span><span class="toggle-icons-docs-2"style="display: none;">▲</span></a></span></li>
-        <li class="toggles1" style="display: none;"><a class="b-link" href="" target="_blank">Python Docs</a></li>
-        <li class="toggles1" style="display: none;"><a class="b-link" href="" target="_blank">SciPy</a></li>
-        <li class="toggles1" style="display: none;"><a class="b-link" href="" target="_blank">NumPy</a></li>
-        <li class="toggles1" style="display: none;"><a class="b-link" href="" target="_blank">Tensorflow</a></li>
-        <li><a class="b-link" href="profile.html">Portfolio</a></li>
-        <li><a class="b-link" href="#">Tutorials</a></li>
+        <li class="toggles1" style="display: none;"><a class="b-link" href="https://docs.python.org/3/" target="_blank">Python Docs</a></li>
+        <li class="toggles1" style="display: none;"><a class="b-link" href="https://bit.ly/3fV3rXh" target="_blank">SciPy</a></li>
+        <li class="toggles1" style="display: none;"><a class="b-link" href="https://numpy.org/doc/stable/" target="_blank">NumPy</a></li>
+        <li class="toggles1" style="display: none;"><a class="b-link" href="https://www.tensorflow.org/learn" target="_blank">Tensorflow</a></li>
+        <li><a class="b-link" href="about.html">About Us</a></li>
+        <li><a class="b-link" href="partners.html">Partners</a></li>
+        <li><a class="b-link" href="projects.html">Some Projects</a></li>
         <li><a class="b-link" href="https://bit.ly/3laW0vO" target="_blank">Exercices Folder</a></li>
-        <li><a class="b-link" href="contact.html">Contact</a></li>
+        <li><a class="b-link b-link--active" href="contact.html">Contact</a></li>
       </div>
       <!-- Burger-Icon -->
       <div class="b-container">
@@ -45,11 +48,11 @@
         </div>
         
         <!-- Burger-Brand -->
-        <a href="transition.html" class="b-brand">Vanier College AI</a>
+        <a href="index.html" class="b-brand">Vanier College AI</a>
       </div>
       </header>
-      <div class="login-box">
-        <h2>Get in touch</h2> <!-- FIXME: Font-->
+      <!-- <div class="login-box">
+        <h2>Get in touch</h2> 
         <form action="/action_page.php">
           <div class="user-box">
             <input type="text" name="username" required>
@@ -60,6 +63,13 @@
             <label>Email</label>
           </div>
           <input type="submit">
+        </form>
+      </div> -->
+      <div class="login-box">
+        <h2>Get in touch</h2> <!-- FIXME: Font-->
+        <form>
+          <h2>Until there is a proper form, please reach out to Julie Plante<br>
+          at <a href="mailto:platej@vaniercollege.qc.ca" style="color: #c31432;">plantej@vaniercollege.qc.ca</a></h2>
         </form>
       </div>
       <!-- Contact form Col2 test -->
